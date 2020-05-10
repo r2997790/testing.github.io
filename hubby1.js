@@ -3,16 +3,15 @@ console.log("boottour  loaded....");
 var tour = new Tour({
   steps: [
     {
-      element: "body.html.front.not-logged-in.no-sidebars.page-node.i18n-ru:nth-child(2) > div.page:nth-child(6) > div.section.clearfix > div.region.region-header > div.block.block-block:nth-child(4) > div.content > div.front-visa > div.front-visa-1 > div.front-visa-link > > a:nth-child(1)",
-
+      element: "#block-block-9 > div > div > div.front-visa-2 > div.front-visa-link > a",
       title: "Step One",
-      content: "This is the button to load the UK Visa Section",
+      content: "Press the Orange Button!",
       placement: "auto"
     },
     {
-      element: "body.html.front.not-logged-in.no-sidebars.page-node.i18n-ru:nth-child(2) > div.page:nth-child(6) > div.section.clearfix > div.region.region-header > div.block.block-block:nth-child(2) > div.content > div.header-contscts > div.header-contscts-tels:nth-child(4) > div.header-contscts-tel",
+      element: "#block-block-3 > div > div > div:nth-child(4) > div",
       title: "Step Two",
-      content: "Ring this phone number!",
+      content: "Here's the phone number. Call it!",
       placement: "auto"
     }
 
